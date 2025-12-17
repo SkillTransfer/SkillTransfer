@@ -1,0 +1,359 @@
+.contracting-page {
+  background: #FFF;
+}
+
+.contracting-hero {
+  position: relative;
+  height: 1080px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.contracting-hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.contracting-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.70);
+  z-index: 1;
+}
+
+.contracting-hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 961px;
+  text-align: center;
+  padding: 0 50px;
+}
+
+.contracting-hero-title {
+  font-family: Barlow, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 3.5em;
+  font-weight: 700;
+  line-height: 65px;
+  margin: 0 0 40px;
+}
+
+.contracting-hero-title .primary-text {
+  color: #03045E;
+}
+
+.contracting-hero-title .highlight {
+  color: #0077B6;
+}
+
+.contracting-hero-description {
+  max-width: 930px;
+  margin: 0 auto 60px;
+  color: #000;
+  font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.contracting-cta-btn {
+  width: 481px;
+  height: 57px;
+  border-radius: 10px;
+  background: #03045E;
+  color: #FFF;
+  font-family: Barlow, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contracting-cta-btn:hover {
+  background: #0077B6;
+}
+
+.what-we-offer-contracting {
+  padding: 100px 150px;
+  max-width: 1728px;
+  margin: 0 auto;
+}
+
+.offer-content {
+  display: flex;
+  gap: 80px;
+  margin-bottom: 80px;
+  align-items: flex-start;
+}
+
+.offer-left,
+.offer-right {
+  flex: 1;
+}
+
+.contracting-services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 360px));
+  gap: 50px;
+  justify-content: center;
+}
+
+.contracting-service-card {
+  padding: 36px 31px;
+  border-radius: 15px;
+  background: #FFF;
+  box-shadow: 0 0 20px 15px rgba(192, 192, 192, 0.25);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.contracting-service-card:hover {
+  opacity: 1;
+  transform: translateY(-5px);
+}
+
+.contracting-service-title {
+  color: #000;
+  font-family: Barlow, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 0 0 20px;
+}
+
+.contracting-service-description {
+  color: #000;
+  font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0;
+  line-height: 25px;
+}
+
+.contracting-process-section {
+  padding: 100px 150px;
+  max-width: 1728px;
+  margin: 0 auto;
+}
+
+.contracting-process-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 60px;
+  margin-top: 60px;
+}
+
+.contracting-process-step {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.process-step-number {
+  color: #0077B6;
+  font-family: 'Helvetica Neue', -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 96px;
+  font-weight: 700;
+  letter-spacing: -7.68px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.process-step-content {
+  flex: 1;
+}
+
+.process-step-title {
+  color: #000;
+  font-family: Barlow, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 19px 0 10px;
+}
+
+.process-step-description {
+  color: #000;
+  font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.why-partner-section {
+  position: relative;
+  background: #00013B;
+  padding: 100px 50px;
+  display: flex;
+  align-items: center;
+}
+
+.why-partner-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 597px;
+  height: 100%;
+}
+
+.why-partner-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.why-partner-content {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-left: 595px;
+}
+
+.benefits-list {
+  list-style: none;
+  padding: 0;
+  margin: 60px 0 0;
+}
+
+.benefits-list li {
+  color: #FFF;
+  font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 1.3em;
+  font-weight: 400;
+  margin-bottom: 40px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.benefits-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #0077B6;
+  font-size: 30px;
+}
+
+.flexible-team-section {
+  background: #DDEEFF;
+  padding: 80px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  max-width: 1728px;
+  margin: 0 auto;
+}
+
+.flexible-team-content {
+  flex: 1;
+  max-width: 800px;
+}
+
+.flexible-team-title {
+  color: #000;
+  font-family: Barlow, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 2.2em;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0 0 30px;
+}
+
+.flexible-team-description {
+  color: #000;
+  font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.flexible-team-buttons {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.team-btn-primary {
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  background: #03045E;
+  color: #FFF;
+  font-family: Barlow, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.team-btn-primary:hover {
+  background: #0077B6;
+}
+
+.team-btn-secondary {
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+  border: 2px solid #03045E;
+  background: #FFF;
+  color: #03045E;
+  font-family: Barlow, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.team-btn-secondary:hover {
+  background: #03045E;
+  color: #FFF;
+}
+
+@media (max-width: 1200px) {
+  .offer-content {
+    flex-direction: column;
+  }
+  
+  .why-partner-content {
+    margin-left: 0;
+  }
+  
+  .flexible-team-section {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .contracting-hero {
+    height: auto;
+    padding: 100px 0;
+  }
+  
+  .contracting-hero-title {
+    font-size: 32px;
+    line-height: 45px;
+  }
+  
+  .contracting-cta-btn {
+    width: 100%;
+    max-width: 481px;
+  }
+  
+  .section-title {
+    font-size: 48px;
+  }
+  
+  .process-step-number {
+    font-size: 64px;
+  }
+}
