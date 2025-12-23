@@ -98,7 +98,7 @@ function Footer() {
                     fill="white"
                   />
                 </svg>
-                <span>theskilltransferacademy@gmail.com</span>
+                <span>theskilltransferagency@gmail.com</span>
               </div>
               <div className="contact-item">
                 <svg

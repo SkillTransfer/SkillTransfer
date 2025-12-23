@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
@@ -26,8 +27,7 @@ function Header() {
     }
 
     document.addEventListener("mousedown", handleClickOutside);
-    return () =>
-      document.removeEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
   return (
@@ -35,14 +35,13 @@ function Header() {
       <div className="header-container">
         {/* Logo */}
         <div className="logo">
-          <img src="logo.png" alt="The SkillTransfer Academy" />
+          <Link to="/">
+            <img src="/logo.png" alt="The SkillTransfer Agency" />
+          </Link>
         </div>
 
         {/* Navigation */}
-        <nav
-          ref={navRef}
-          className={`main-nav ${menuOpen ? "show" : ""}`}
-        >
+        <nav ref={navRef} className={`main-nav ${menuOpen ? "show" : ""}`}>
           {[
             { path: "/", label: "About" },
             { path: "/coaching", label: "Coaching" },
