@@ -32,8 +32,7 @@ function Home() {
             <img src="personna3.png" alt="Team member" className="hero-image" />
             <img src="personna4.png" alt="Team member" className="hero-image" />
           </div>
-        </div>
-      
+        </div>      
       </section>
       <section className="services-section">
         <h2 className="home-section-title">OUR SERVICES</h2>
