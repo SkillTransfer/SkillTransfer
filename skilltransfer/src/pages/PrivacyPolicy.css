@@ -40,3 +40,9 @@
 .privacy-content ul li {
   font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
 }
+
+@media (max-width: 600px) {
+  .privacy-content {
+    padding: 0 30px;
+  }
+}

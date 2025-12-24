@@ -182,19 +182,14 @@
   }
 }
 
-/* @media (max-width: 768px) {
-  .header-container {
-    flex-direction: column;
-    gap: 20px;
+@media (max-width: 600px) {
+  .logo img {
+    width: 100px;
+    height: auto;
   }
-  
-  .main-nav {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+  .contact-btn {
+    width: 80px;
+    height: 35px;
+    font-size: 0.9em;
   }
-  
-  .nav-link {
-    font-size: 18px;
-  }
-} */
+} 

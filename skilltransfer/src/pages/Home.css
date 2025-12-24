@@ -299,7 +299,11 @@
     justify-self: start;
   }
 }
-
+@media (max-width: 1000px) {
+  .stats-bars {
+    display: none;
+  }
+}
 
 @media (max-width: 768px) {
   .hero-title {
