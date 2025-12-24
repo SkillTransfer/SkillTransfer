@@ -59,13 +59,14 @@
 
 .what-we-do-section {
   padding: 70px 150px;
-  max-width: 1728px;
+  width: 100%;
   margin: 0 auto;
   background: #DDEEFF;
 }
 
 .what-we-do-content {
   display: flex;
+  max-width: 1728px;
   gap: 80px;
   margin-bottom: 80px;
   align-items: flex-start;
@@ -135,6 +136,7 @@
 .process-section {
   position: relative;
   padding: 70px 100px;
+  width: 100%;
   background: rgba(255, 255, 255, 0.60);
 }
 

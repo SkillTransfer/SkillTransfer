@@ -328,7 +328,23 @@
 
 @media (max-width: 620px) {
   .hero-content {
-    padding: 50px;
+    padding: 0 50px;
+  }
+  .hero-section {
+    padding-bottom: 50px;
+  }
+  .hero-image {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .hero-title {
+    font-size: 2em;
+  }
+  .hero-description {
+    margin: 0 auto 60px;
+    font-size: 1em;
   }
   .services-section {
     padding: 50px;
