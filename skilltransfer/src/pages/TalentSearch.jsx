@@ -15,7 +15,7 @@ function TalentSearch() {
             with Exceptional Opportunities
           </h1>
           <p className="talent-hero-description">
-            At SkillTransfer Academy, we go beyond recruitment — we build
+            At SkillTransfer Agency, we go beyond recruitment — we build
             partnerships. Our talent search solutions are designed to help
             organizations attract, evaluate, and retain the professionals who
             drive growth and innovation.
@@ -23,7 +23,10 @@ function TalentSearch() {
           <button
             className="talent-cta-btn"
             onClick={() =>
-              window.open("https://docs.google.com/forms/d/e/1FAIpQLSd8-T8CgOMOO0EOM2UiRrvYYupYbsnkwC1fskut-Cvdy2pRnA/viewform", "_blank")
+              window.open(
+                "https://docs.google.com/forms/d/e/1FAIpQLSd8-T8CgOMOO0EOM2UiRrvYYupYbsnkwC1fskut-Cvdy2pRnA/viewform",
+                "_blank"
+              )
             }
           >
             Find Talent
@@ -242,7 +245,7 @@ function TalentSearch() {
         <div className="partner-content">
           <h2 className="partner-title">Partner With Us</h2>
           <p className="partner-description">
-            Partner with SkillTransfer Academy to gain a recruitment advantage
+            Partner with SkillTransfer Agency to gain a recruitment advantage
             that goes beyond traditional hiring. We connect you with people who
             not only have the right skills but also the passion and vision to
             help your business grow.
@@ -251,7 +254,17 @@ function TalentSearch() {
 
         <div className="partner-buttons">
           {/* <button className="partner-btn-secondary">Post a Job</button> */}
-          <button className="partner-btn-primary" onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSd8-T8CgOMOO0EOM2UiRrvYYupYbsnkwC1fskut-Cvdy2pRnA/viewform", "_blank")}>Schedule a Session</button>
+          <button
+            className="partner-btn-primary"
+            onClick={() =>
+              window.open(
+                "https://docs.google.com/forms/d/e/1FAIpQLSd8-T8CgOMOO0EOM2UiRrvYYupYbsnkwC1fskut-Cvdy2pRnA/viewform",
+                "_blank"
+              )
+            }
+          >
+            Schedule a Session
+          </button>
         </div>
       </section>
 

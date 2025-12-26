@@ -22,7 +22,7 @@ function Home() {
             Performance
           </h1>
           <p className="hero-description">
-            SkillTransfer Academy empowers talent and businesses through expert
+            SkillTransfer Agency empowers talent and businesses through expert
             coaching, smart recruitment, and efficient contracting solutions —
             helping you grow, connect, and succeed.
           </p>
@@ -84,7 +84,7 @@ function Home() {
         <div className="why-choose-content">
           <h2 className="section-title">WHY CHOOSE US ?</h2>
           {/* <p className="why-choose-description">
-            At SkillTransfer Academy, we stand out through our unwavering
+            At SkillTransfer Agency, we stand out through our unwavering
             commitment to excellence, personalized approach, and integrated
             solutions that drive real results for both individuals and
             businesses. Here’s why partnering with us makes all the difference:
