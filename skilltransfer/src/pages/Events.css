@@ -231,12 +231,14 @@
 
 /* Cancel button */
 .modal-content button.close-btn {
-  background: transparent;
+  background: #dfdddd;
   border: none;
   color: #555;
   font-size: 0.95rem;
   cursor: pointer;
   margin-left: 10px;
+  padding: 12px 20px;
+  border-radius: 6px;
 }
 
 .modal-content button.close-btn:hover {
