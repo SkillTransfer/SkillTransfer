@@ -180,6 +180,7 @@ const FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLScdcRb27NWrU26Yz5ZMtJ
                   type="button"
                   onClick={() => setModalOpen(false)}
                   style={{ marginLeft: "10px" }}
+                  className="close-btn"
                 >
                   Cancel
                 </button>

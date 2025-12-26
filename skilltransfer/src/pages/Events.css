@@ -1,9 +1,11 @@
+.events-page {
+  min-height: 100vh;
+}
 .events-layout {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 30px;
   padding: 40px 150px;
-  height: 100vh;
 }
 
 /* LEFT – Resources */
@@ -225,6 +227,7 @@
   background-color: #aaa;
   cursor: not-allowed;
 }
+
 
 /* Cancel button */
 .modal-content button.close-btn {
